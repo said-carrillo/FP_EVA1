@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Eva1_3_print"/>
+        <attribute name="authors" value="soid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-26 10:47:31 p. m."/>
+        <attribute name="created" value="c29pZDtERVNLVE9QLU1LVTJLSzI7MjAyNS0wOC0yNjsxMDo0Mjo0MSBwLiBtLjsyOTcw"/>
+        <attribute name="edited" value="c29pZDtERVNLVE9QLU1LVTJLSzI7MjAyNS0wOC0yNjsxMDo0NzozMSBwLiBtLjsxOzMwODI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Nombre:&quot;" newline="False"/>
+            <output expression="&quot;Said Hernandez&quot;" newline="True"/>
+            <output expression="&quot;No. de control:&quot;" newline="False"/>
+            <output expression="&quot;25550592&quot;" newline="True"/>
+            <output expression="&quot;Edad:&quot;" newline="False"/>
+            <output expression="20" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
