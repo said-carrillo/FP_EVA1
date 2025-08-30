@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Eva_1_6_operaciones"/>
+        <attribute name="authors" value="soid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-29 08:30:44 p. m."/>
+        <attribute name="created" value="c29pZDtERVNLVE9QLU1LVTJLSzI7MjAyNS0wOC0yOTswODowMDoxMyBwLiBtLjsyOTcz"/>
+        <attribute name="edited" value="c29pZDtERVNLVE9QLU1LVTJLSzI7MjAyNS0wOC0yOTswODozMDo0NCBwLiBtLjsxOzMwODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radio" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="pii" type="Real" array="False" size=""/>
+            <assign variable="pii" expression="3.1416"/>
+            <assign variable="radio" expression="5"/>
+            <assign variable="area" expression="pii * radio * radio"/>
+            <output expression="&quot;El area de un circulo de radio= es:&quot;" newline="True"/>
+            <output expression="area" newline="True"/>
+            <declare name="areaa" type="Real" array="False" size=""/>
+            <declare name="rad" type="Real" array="False" size=""/>
+            <assign variable="rad" expression="100"/>
+            <assign variable="areaa" expression="pii * rad * rad"/>
+            <output expression="&quot;El area de un circulo de raadio = 100 es:&quot;" newline="True"/>
+            <output expression="areaa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
