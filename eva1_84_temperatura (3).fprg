@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="eva1_83_temperatura"/>
+        <attribute name="authors" value="soid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-01 11:42:00 p. m."/>
+        <attribute name="created" value="c29pZDtERVNLVE9QLU1LVTJLSzI7MjAyNS0wOS0wMTsxMTozNjo0MSBwLiBtLjsyOTY4"/>
+        <attribute name="edited" value="c29pZDtERVNLVE9QLU1LVTJLSzI7MjAyNS0wOS0wMTsxMTo0MjowMCBwLiBtLjsxOzMwNjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="F, K" type="Real" array="False" size=""/>
+            <assign variable="K" expression="100"/>
+            <assign variable="F" expression="(9 * (K - 273.15) /5) +32"/>
+            <output expression="&quot;El valor de kelvin a fahrenheit es:&quot;" newline="False"/>
+            <output expression="F" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
