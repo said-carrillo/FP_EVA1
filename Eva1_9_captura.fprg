@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Eva1_9_captura"/>
+        <attribute name="authors" value="soid"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-02 11:47:14 p. m."/>
+        <attribute name="created" value="c29pZDtERVNLVE9QLU1LVTJLSzI7MjAyNS0wOS0wMjsxMDoxMDozNiBwLiBtLjsyOTY0"/>
+        <attribute name="edited" value="c29pZDtERVNLVE9QLU1LVTJLSzI7MjAyNS0wOS0wMjsxMTo0NzoxNCBwLiBtLjsxOzMwNzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="edad" type="Real" array="False" size=""/>
+            <declare name="promedio" type="String" array="False" size=""/>
+            <output expression="&quot;introsuce tu nombre completo&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;dime tu edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <output expression="&quot;dime tu promedio&quot;" newline="True"/>
+            <input variable="promedio"/>
+            <output expression="&quot;el nombre capturado es: &quot;" newline="False"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="&quot;tu edad es: &quot;" newline="False"/>
+            <output expression="edad" newline="True"/>
+            <output expression="&quot;tu promedio es: &quot;" newline="False"/>
+            <output expression="promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
